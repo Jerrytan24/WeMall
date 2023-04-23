@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background-color: #eee;
+}
+.profile2 {
+  text-align: center;
+}
+.profile2 button {
+  -webkit-transform: translateY(75rpx);
+          transform: translateY(75rpx);
+  width: 400rpx;
+  border-radius: 200rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background-color: #ff510a;
+  color: white;
+  font-size: 13px;
+}
+.profile {
+  background-color: white;
+  width: 100%;
+  height: 230rpx;
+  line-height: 230rpx;
+}
+.profile view {
+  display: inline-block;
+}
+.profile .image0 {
+  width: 65rpx;
+  height: 65rpx;
+  margin-left: 200rpx;
+}
+.profile .jerry {
+  display: inline-block;
+  margin-left: 35rpx;
+  position: relative;
+}
+.profile .jerry text:nth-child(2) {
+  color: #afafaf;
+  font-size: 12rpx;
+  position: relative;
+  top: 46rpx;
+  left: -76rpx;
+}
+.profile .image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 75rpx;
+  overflow: hidden;
+  vertical-align: middle;
+}
+._ul ._li {
+  list-style: none;
+}
+._ul {
+  list-style: none;
+  padding: 0;
+}
+.infomation {
+  margin-top: 20rpx;
+  background-color: white;
+}
+.myli_01 .text {
+  font-size: 13rpx;
+  margin-left: 55rpx;
+}
+.myli_01 .li_flex {
+  margin-left: 70rpx;
+  display: flex;
+  flex: 1;
+  margin-top: 15rpx;
+}
+.myli_01 .li_flex image {
+  width: 110rpx;
+  height: 110rpx;
+}
+.myli_01 .li_flex view {
+  width: 32%;
+}
+.myli_01 .li_flex .icon_01 ._li {
+  margin-left: 17rpx;
+}
+.myli_01 .li_flex .icon_01 ._li text {
+  font-size: 13px;
+}
+.my {
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+.my image {
+  margin-left: 55rpx;
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: middle;
+}
+.my text {
+  margin-left: 25rpx;
+  font-size: 13px;
+  color: #a7a7a7;
+}
+.my .square {
+  display: inline-block;
+  border: 1px solid #a7a7a7;
+  border-bottom: 0px;
+  border-left: 0px;
+  width: 20rpx;
+  height: 20rpx;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin-left: 490rpx;
+}
+.bottom {
+  margin-top: 20rpx;
+  line-height: 80rpx;
+  text-align: center;
+  height: 80rpx;
+  background-color: white;
+  width: 100%;
+}
+.bottom text {
+  font-size: 13px;
+  color: #a7a7a7;
+}
+.footer {
+  margin-top: 20rpx;
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+}
+.footer text {
+  font-size: 11px;
+  color: #a7a7a7;
+}
+

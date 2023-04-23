@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我扔的纸条",
+  "navigationBarBackgroundColor": "#ff510a",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u-text": "/uni_modules/uview-ui/components/u-text/u-text",
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal"
+  }
+}

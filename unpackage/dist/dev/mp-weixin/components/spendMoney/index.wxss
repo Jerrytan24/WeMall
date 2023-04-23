@@ -1,0 +1,22 @@
+
+.password {
+	width: 25%;
+	flex-grow: 1;
+	padding: 3%;
+	font-size: 40rpx;
+	box-shadow: 0px 0px 1rpx #ccc;
+}
+.hover {
+	background: #eee;
+}
+.masks {
+	bottom: -50%;
+	position: fixed;
+	background: #fff;
+	width: 100%;
+	transition: .5s
+}
+.bot {
+	bottom: 0;
+}
+

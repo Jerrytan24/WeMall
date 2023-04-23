@@ -1,0 +1,30 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/iconfont.eot?t=1562999921833'); /* IE9 */
+  src: url('//at.alicdn.com/t/iconfont.eot?t=1562999921833#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOEAAsAAAAAB3AAAAM1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCUIIeATYCJAMMCwgABCAFhG0HPxttBsiemjyZu5/5Dh4LSbYGNGgXFkH92G/vvUO1QRKNRNHpJNFIootWSJA6UUMmEoqX8P/Xv68M5AyB7vPmwXkZV0KFBSuikjur2rPdFvX8/dze392S4dKgjSpe3UKi01ZH84ZHEiFOInWEZCGZNECAkP+Dy+m3xOcB5TLXpMcA44ACGmvTBoxLGBvGbqI8iM0E2o3K47LR0TeGvCXQKxAnAmdD3imXlFq0VWgumZgZj4BrLffYHnjgv49/vrwpmiowcPO43Ymavph/XTf2z2pQBNjjGaBNo2IOksRRqWmHWxia46bdEbnXJzdLoYzlPfjDWa6gGf7hUQTRDGR2gikpXPgqxqxYrIqcs86soFlM24fcArLBvm/OzgGbazxa/HQsfD4Vv17KX85V56E03/P6iSNLV3Yixrmjty+dNrdLOeRyRqRvuOQ8Nos4rIMI56GLp2KChtdk/0K44+yD6FMeSPnDnRcTTudKor6Wr3z1fim1buR0W/iMWy3uX1Km9JCpMwj/IH5I625n+j5Cnm/eeJC85X41GGQXv1RuIujfXPvc1mbYmYH7zvSeGX7YUejrb+3svNcdCY6qqOwLoOvT5tZfEBYS3C8lkyHFYwMDvyrqVGLD2DNR4PuQuHshiZJ7f+XWQXALhAZXn/Xi4NeYJlEP/8NuLj42LktQ4OrdkeBz8LTBGe0wXPkFQloVWrPfelwSjUN5LldU17RFastCtWDgngXt2tEAYOv3p79s6M4iodVQDEWLEahajWGSMAdNOsxDs1bL0G5W5/QOAyg3kW2YsSZA6HUDim7vUPV6jUnCb2gy7D80680N2m2FZsEOEwm+cQo2Bk5sn8eCQ1MJ0jLfIHsEuGnZRpNcTpwAagpeXFxQlI12ggp0jCHmDFfCGMGEagruELYDWdawTjURHKyAZ0yvKSwkZTcqcGgK8rWOAjYMcMLs5mECB42K0OqMb+77IwBnmsyG1qA6tBMAZRLqx4oVKGqB6RSprVDXco1pBqcEwxAYQWkUWIdgADIMaTC9vJ0IODAF+B4BXY1CqRJpKyqYX6I83xpoBw6oUaJGaj21qQ4eVM63p02Lgk1lTIkQAAAA') format('woff2'),
+  url('//at.alicdn.com/t/iconfont.woff?t=1562999921833') format('woff'),
+  url('//at.alicdn.com/t/iconfont.ttf?t=1562999921833') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/iconfont.svg?t=1562999921833#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 32upx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wancheng:before {
+  content: "\e66e";
+	color: #7BBB55;
+}
+
+.icon-youjiantou{
+	padding: 6%;
+}
+
+.icon-youjiantou:before {
+  content: "\e631";
+}
+

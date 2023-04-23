@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "helang-waterfall": "/uni_modules/helang-waterfall/components/helang-waterfall/helang-waterfall"
+  }
+}

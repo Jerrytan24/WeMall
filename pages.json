@@ -1,0 +1,319 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/chat/index",
+			"style": {
+				"navigationBarTitleText": "聊天界面",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path":"pages/forget/index",
+			"style": {
+				"navigationBarTitleText": "验证界面",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path":"pages/forget/check",
+			"style": {
+				"navigationBarTitleText": "验证界面",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path":"pages/forget/setPassword",
+			"style": {
+				"navigationBarTitleText": "重设密码",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path":"pages/comments/index",
+			"style":{
+				"navigationBarTitleText": "评论",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/issue/issue",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/sell/sell",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/solded/index",
+			"style": {
+				"navigationBarTitleText": "已售出",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff510a"
+			}
+		},
+		{
+			"path":"pages/directSales/index",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path":"pages/sell/search",
+			"style":{
+				"navigationBarTitleText": "搜索",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff510a"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff510a",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/myfabu/myfabu",
+			"style": {
+				"navigationBarTitleText": "我的发布",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path":"pages/upload/uppload",
+			"style": {
+				"navigationBarTitleText": "上传发布",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path":"pages/warehouse/index",
+			"style": {
+				"navigationBarTitleText": "店铺",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+			
+		},
+		{
+			"path": "pages/mypaper/mypaper",
+			"style": {
+				"navigationBarTitleText": "扔纸条",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path":"pages/mypaper/mypapered",
+			"style": {
+				"navigationBarTitleText": "我扔的纸条",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/center/center",
+			"style": {
+				"navigationBarTitleText": "需求中心",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path":"pages/center/centerDetail",
+			"style": {
+				"navigationBarTitleText": "动态详情",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/aboutwe/aboutwe",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/collect/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff510a"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff510a"
+			}
+		},
+		{
+			"path": "pages/resgist/regist",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff510a"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff510a"
+			}
+		},
+		{
+			"path": "pages/chi/chi",
+			"style": {
+				"navigationBarTitleText": "广州吃吃",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff510a"
+			}
+		},
+		{
+			"path": "pages/chatroom/index",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff510a"
+			}
+		},
+		{
+			"path": "pages/chatroom/chatUser",
+			"style": {
+				"navigationBarTitleText": "聊天界面",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff510a"
+			}
+		},
+		{
+			"path": "pages/shengcun/shengcun",
+			"style": {
+				"app-plus":{
+					"subNVues":false,
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path": "pages/zhinan/zhinan",
+			"style": {
+				"navigationBarTitleText": "使用指南",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/myOrder/myOrder",
+			"style": {
+				"navigationBarTitleText": "订单中心",
+				"navigationBarBackgroundColor": "#ff510a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			} 
+		},
+		{
+			"path": "pages/detail/orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+
+		}, {
+			"path": "pages/JerryList/JerryList",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "水平排列，右图左文"
+			}
+
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor":"#ff510a",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/indexSelected.png",
+				"text": "首页"
+				
+			},
+			{
+				"pagePath": "pages/sell/sell",
+				"iconPath": "static/book.png",
+				"selectedIconPath": "static/bookSelected.png",
+				"text": "书城"
+			},
+			{
+				"pagePath":"pages/upload/uppload",
+				"selectedIconPath":"static/upload.png",
+				"iconPath":"static/uploaded.png",
+				"text":"上传" 
+			},
+			{
+				"iconPath": "static/cart.png",
+				"pagePath": "pages/cart/cart",
+				"selectedIconPath": "static/cartSelected.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/mySelected.png",
+				"text": "我的"
+			}
+		]
+	}
+}

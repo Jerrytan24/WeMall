@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-swipe-action": "/uni_modules/uview-ui/components/u-swipe-action/u-swipe-action",
+    "u-swipe-action-item": "/uni_modules/uview-ui/components/u-swipe-action-item/u-swipe-action-item",
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "u-keyboard": "/uni_modules/uview-ui/components/u-keyboard/u-keyboard"
+  }
+}

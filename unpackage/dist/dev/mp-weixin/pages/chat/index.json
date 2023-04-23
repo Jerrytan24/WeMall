@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "聊天界面",
+  "navigationBarBackgroundColor": "#ff510a",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "chat-input": "/components/chatinput",
+    "message-show": "/components/messageshow"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "聊天界面",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#ff510a",
+  "usingComponents": {
+    "u-notice-bar": "/uni_modules/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-input": "/uni_modules/uview-ui/components/u-input/u-input",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
+  }
+}

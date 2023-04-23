@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "验证界面",
+  "navigationBarBackgroundColor": "#ff510a",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "u-code": "/uni_modules/uview-ui/components/u-code/u-code",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-code-input": "/uni_modules/uview-ui/components/u-code-input/u-code-input"
+  }
+}

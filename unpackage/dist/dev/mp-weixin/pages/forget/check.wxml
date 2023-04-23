@@ -1,0 +1,1 @@
+<view class="sunui data-v-07a9cf42"><view class="sunui-title data-v-07a9cf42"></view><sunui-mverify bind:change="__e" vue-id="ed8f16f2-1" data-event-opts="{{[['^change',[['mverify']]]]}}" class="data-v-07a9cf42" bind:__l="__l"></sunui-mverify></view>

@@ -1,0 +1,1 @@
+<view><u-upload vue-id="706094d6-1" fileList="{{fileList1}}" name="1" multiple="{{true}}" maxCount="{{3}}" data-event-opts="{{[['^afterRead',[['afterRead']]],['^delete',[['deletePic']]]]}}" bind:afterRead="__e" bind:delete="__e" bind:__l="__l"></u-upload></view>

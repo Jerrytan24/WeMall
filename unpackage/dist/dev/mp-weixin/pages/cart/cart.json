@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "购物车",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#ff510a",
+  "usingComponents": {
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "spend-money": "/components/spendMoney/index"
+  }
+}

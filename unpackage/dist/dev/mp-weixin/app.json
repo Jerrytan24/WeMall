@@ -1,0 +1,81 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/chat/index",
+    "pages/forget/index",
+    "pages/forget/check",
+    "pages/forget/setPassword",
+    "pages/category/index",
+    "pages/comments/index",
+    "pages/issue/issue",
+    "pages/sell/sell",
+    "pages/solded/index",
+    "pages/directSales/index",
+    "pages/sell/search",
+    "pages/profile/profile",
+    "pages/myfabu/myfabu",
+    "pages/upload/uppload",
+    "pages/warehouse/index",
+    "pages/mypaper/mypaper",
+    "pages/mypaper/mypapered",
+    "pages/center/center",
+    "pages/center/centerDetail",
+    "pages/aboutwe/aboutwe",
+    "pages/collect/collect",
+    "pages/login/login",
+    "pages/resgist/regist",
+    "pages/cart/cart",
+    "pages/chi/chi",
+    "pages/chatroom/index",
+    "pages/chatroom/chatUser",
+    "pages/shengcun/shengcun",
+    "pages/zhinan/zhinan",
+    "pages/myOrder/myOrder",
+    "pages/detail/detail",
+    "pages/detail/orderDetail",
+    "pages/JerryList/JerryList"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#ff510a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/indexSelected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/sell/sell",
+        "iconPath": "static/book.png",
+        "selectedIconPath": "static/bookSelected.png",
+        "text": "书城"
+      },
+      {
+        "pagePath": "pages/upload/uppload",
+        "selectedIconPath": "static/upload.png",
+        "iconPath": "static/uploaded.png",
+        "text": "上传"
+      },
+      {
+        "iconPath": "static/cart.png",
+        "pagePath": "pages/cart/cart",
+        "selectedIconPath": "static/cartSelected.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/mySelected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

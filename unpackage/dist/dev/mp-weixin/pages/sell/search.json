@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "搜索",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#ff510a",
+  "usingComponents": {
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "book-list": "/components/book_list/book_list"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "使用指南",
+  "navigationBarBackgroundColor": "#ff510a",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-collapse": "/uni_modules/uview-ui/components/u-collapse/u-collapse",
+    "u-collapse-item": "/uni_modules/uview-ui/components/u-collapse-item/u-collapse-item"
+  }
+}

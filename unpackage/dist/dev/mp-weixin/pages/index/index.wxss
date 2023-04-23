@@ -1,0 +1,339 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+  font-family: "HMfont-home";
+  src: url("data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAP8AAsAAAAACFwAAAOwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqEEINSATYCJAMQCwoABCAFhG0HTxtLBxHVmzvJfhS4scOeC1v4zNNRK/hO5b0IHqg/8838ye5XsIDanmAkhZ1NSZygm4SsbYYkp17ICsOUxIP/ZZm9xejtQAD8zzX10geY387mEtXapUd7A5xF6oAi2pJoE8YNY1dexGkIwCSZQoiq1es2RUdhTBKA6N2jWwf0lAlVky3QEYSUrFSIOTjQ5VR5GZjt/168obDQQeLQMGY27FqtMxWf5z5fpgWCgdYugng8B8DWgQYUAhSI7qWujmhhqBAaptJfURzQ0ZEwVkfB58uCQSTZi0o3//JAItBAhGBk2gAURUrtxMQ2BQnPC1IQ8HyZmpvE1XgdMIDtwHVEJt4qkThsZwFPVHiEFTHKtWBBYGGUe/HmsZu6TluCStw+fXGMY9GyUb4b133Xrze9etV77VqzxcuXbYq8bF6/7rtxo5lY6A1cLcuCQJS3oXHswOYKUSaI71xkXr3ayZy2SIix0YumRS6AwEnLmr58WS9z2pKlYcJCCGzcXOU81Xuhp1osIWbBiUQWehda7lTvaNeCJX0WbYgksMA0hdlLo6zDp1PEomIdVu7YE4wN7nH7uGPdHXz2R3uHnX68tcP6SPE5ZSdObNpN/9dybtfmr6tHoy6+rN+DqdvnW9lUbkHTdcUWfKp1yzVr5Ag5HCqGU0Hca3jpAt2GiWFRwxYvdpYFo2b3tN/HvLeFd+BAr5Bu7CXnzKFlJb8dtP3ucx1djc+589Pep+W7X706stfvml+7i8fsWunxp7/f/uzsrgzj9Sv3p+6T7yqwvrfdy3nk/J6eZ84fnHp2lSvf/m/7H7569dDvuY/fTX+Mwdog+QVAGyB/IHmGyK8/exQrX13Maucu+y23rrbi5tQ1T3yTor3oj4kV8a8VtyxSqtQwKyXLbJF2kaI5DgAkYGICPzQG4dwfQxPVOhMEOlExSEJJAg2dTFSRhcCBRVEIQacCmBSkxnqLCAaiIZQBFGAiAIGH3SBxcRo0PFxBFXkPHETzDkLwCA1MfCJiR4tswStWxeEccIPlAbXSxS1rYEH2G0U8ZpeU+sw/Oq+80JR1NjrghW6MOT6JNgQO3NEJPTgPj4PAONK4hlKGYLqq4mVvKlc6M0YVh3PADZYH1EoXd8sHlvv+G0U8ZldDq/D+0XnVPTRl3QIdVFcr2rX090m0IXA8jjs6oYcOPMwQgSkfpnENpewRMF2FSvG2qnJ+zfmE6wATY6YSUmhCCQehg9V8advwun0+nHuJ0VP0kYrcz/Qox5hl") format("woff2");
+}
+.icon {
+  font-family: "HMfont-home" !important;
+  font-size: 60rpx;
+  font-style: normal;
+  color: #ffffff;
+}
+.icon.scan:before {
+  content: "\e69a";
+}
+.icon.menu:before {
+  content: "\e62b";
+}
+.icon.search:before {
+  content: "\e628";
+}
+page {
+  background-color: #fff;
+}
+.status {
+  width: 100%;
+  height: 0;
+  background-color: #ff570a;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+.header {
+  width: 100%;
+  height: 100rpx;
+  background-color: #ff570a;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 996;
+}
+.header .scan {
+  width: 100rpx;
+  height: 100rpx;
+  flex-shrink: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .input {
+  width: calc(100% - 200rpx);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.header .input input {
+  width: calc(100% - 60rpx);
+  height: 60rpx;
+  background-color: #ffffff;
+  border-radius: 60rpx;
+  padding-left: 60rpx;
+  font-size: 30rpx;
+}
+.header .input .icon {
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  color: #a18090;
+  z-index: 996;
+  top: 20rpx;
+  left: 0;
+  font-size: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .menu {
+  width: 100rpx;
+  height: 100rpx;
+  flex-shrink: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .menu image {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 60rpx;
+}
+.place {
+  background-color: #ff570a;
+  height: 100rpx;
+}
+.swiper-view .swiper {
+  width: 100%;
+  height: 280rpx;
+}
+.swiper-view .swiper image {
+  width: 100%;
+  height: 280rpx;
+}
+.swiper-view .keep-out {
+  width: 100%;
+  height: 30rpx;
+  border-radius: 100% 100% 0 0;
+  background-color: #ff570a;
+  margin-top: -15rpx;
+  position: absolute;
+}
+.category {
+  width: 95%;
+  padding: 2.5vw 2.5vw;
+  background-color: #ff570a;
+}
+.category .box {
+  width: 100%;
+  border-radius: 20rpx;
+  background-color: #ffffff;
+}
+.category .box .dots {
+  display: flex;
+  justify-content: center;
+  height: 15rpx;
+  width: 100%;
+}
+.category .box .dots view {
+  width: 30rpx;
+  height: 5rpx;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.category .box .dots view.active {
+  background-color: #ff570a;
+}
+.category .box .swiper {
+  width: 100%;
+  padding: 20rpx 0;
+}
+.category .box .swiper .uni-swiper-dot {
+  width: 20rpx;
+}
+.category .box .swiper .category-list {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10rpx 0;
+  flex-flow: wrap;
+}
+.category .box .swiper .category-list .icon {
+  width: 20%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  font-size: 22rpx;
+  color: #666;
+}
+.category .box .swiper .category-list .icon image {
+  width: 75rpx;
+  height: 100rpx;
+}
+.category .box .swiper .category-list .icon view {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.pick {
+  width: 95%;
+  padding: 0 2.5vw 2.5vw 2.5vw;
+  background: linear-gradient(to bottom, #ff570a 0%, #ffffff 105%);
+}
+.pick .box {
+  width: 100%;
+  border-radius: 20rpx;
+  background-color: #ffffff;
+}
+.pick .box .title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 60rpx;
+  border-bottom: solid 1rpx #eee;
+  padding-bottom: 10rpx;
+}
+.pick .box .title .big {
+  font-size: 34rpx;
+  padding-left: 20rpx;
+  color: #46434f;
+}
+.pick .box .title .small {
+  font-size: 24rpx;
+  padding-left: 20rpx;
+  color: #827f8b;
+}
+.pick .box .product-list {
+  padding: 15rpx 20rpx 15rpx 20rpx;
+  -webkit-column-count: 2;
+          column-count: 2;
+  -webkit-column-width: 50%;
+          column-width: 50%;
+  -webkit-column-gap: 10rpx;
+          column-gap: 10rpx;
+}
+.pick .box .product-list > view {
+  display: flex;
+  background-color: #f8f8f8;
+  position: relative;
+}
+.pick .box .product-list > view:nth-child(1) .price {
+  color: #e65339;
+  font-size: 30rpx;
+  position: absolute;
+  bottom: 8rpx;
+  left: 8rpx;
+}
+.pick .box .product-list > view:nth-child(1) .slogan {
+  color: #807c87;
+  font-size: 30rpx;
+  position: absolute;
+  bottom: 8rpx;
+  right: 8rpx;
+}
+.pick .box .product-list > view:nth-child(1) image {
+  width: 100%;
+  height: 0;
+}
+.pick .box .product-list > view:nth-child(2) image, .pick .box .product-list > view:nth-child(3) image {
+  width: calc(50% - 5rpx);
+  height: 0;
+}
+.pick .box .product-list > view:nth-child(2) .price, .pick .box .product-list > view:nth-child(3) .price {
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  color: #e65339;
+  font-size: 30rpx;
+}
+.pick .box .product-list > view:nth-child(2) .slogan, .pick .box .product-list > view:nth-child(3) .slogan {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  color: #807c87;
+  font-size: 20rpx;
+}
+.pick .box .product-list > view:nth-child(2) {
+  margin-bottom: 10rpx;
+}
+.banner image {
+  width: 100%;
+}
+.goods-list {
+  background-color: #f4f4f4;
+}
+.goods-list .title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60rpx;
+  color: #979797;
+  font-size: 24rpx;
+}
+.goods-list .loading-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60rpx;
+  color: #979797;
+  font-size: 24rpx;
+}
+.goods-list .product-list {
+  width: 95%;
+  padding: 0 2.5% 2.5vw 2.5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.goods-list .product-list .product {
+  width: 48.75%;
+  border-radius: 20rpx;
+  background-color: #fff;
+  margin: 0 0 15rpx 0;
+}
+.goods-list .product-list .product image {
+  width: 100%;
+  border-radius: 20rpx 20rpx 0 0;
+}
+.goods-list .product-list .product .name {
+  width: 92%;
+  padding: 10rpx 4%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-align: justify;
+  overflow: hidden;
+  font-size: 30rpx;
+}
+.goods-list .product-list .product .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 92%;
+  padding: 10rpx 4% 10rpx 4%;
+}
+.goods-list .product-list .product .info .price {
+  color: #e65339;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.goods-list .product-list .product .info .slogan {
+  color: #807c87;
+  font-size: 24rpx;
+}
+

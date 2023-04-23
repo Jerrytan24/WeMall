@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "navigation": "/components/navigationBar",
+    "popup-component": "/components/popupComponent"
+  }
+}

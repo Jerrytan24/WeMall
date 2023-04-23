@@ -1,0 +1,1 @@
+<view><u-modal vue-id="32c8b92a-1" show="{{show}}" content="{{content}}" showConfirmButton="{{true}}" data-event-opts="{{[['^confirm',[['evt']]]]}}" bind:confirm="__e" bind:__l="__l"></u-modal><usercollect vue-id="32c8b92a-2" list="{{JerryCollect}}" bind:__l="__l"></usercollect></view>

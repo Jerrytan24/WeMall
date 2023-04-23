@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "动态详情",
+  "navigationBarBackgroundColor": "#ff510a",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u-text": "/uni_modules/uview-ui/components/u-text/u-text",
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
+  }
+}

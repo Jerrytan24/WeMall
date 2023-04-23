@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "订单中心",
+  "navigationBarBackgroundColor": "#ff510a",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-subsection": "/uni_modules/uview-ui/components/u-subsection/u-subsection",
+    "book-order": "/components/bookOrderComponents",
+    "book-complete": "/components/bookOrderComplete",
+    "book-fahuo": "/components/bookOrderFahuo"
+  }
+}

@@ -1,0 +1,1 @@
+<view><slot></slot><scoped-slots-default options="{{options}}" data="{{dataList}}" pagination="{{paginationInternal}}" loading="{{loading}}" hasMore="{{hasMore}}" error="{{errorMessage}}" class="scoped-ref" bind:__l="__l"></scoped-slots-default></view>
