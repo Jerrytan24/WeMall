@@ -4,7 +4,7 @@
 			<image :src="userImage" class="image"></image>
 			<view class="jerry">
 				<text>{{usernameStorage}}</text>
-				<text>广东技术师范大学</text>
+				<text>中国社会大学</text>
 			</view>
 			<!-- <image src="https://gitee.com/jerry-mall/static/raw/master/images/pen.png" class="image0"></image> -->
 		</view>
@@ -66,7 +66,7 @@
 		<text>退出登录</text>
 	</view>
 	<view class="footer">
-		<text>JerryTan(谭锦灵)亲手开发</text>
+		<text>JerryTan亲手开发</text>
 	</view>
 	</view>
 </template>
