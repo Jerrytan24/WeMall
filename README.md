@@ -4,6 +4,8 @@
 禁止二次销售，用于商业，直接抄用毕业设计
 可提供借鉴交流
 
+后端代码地址含数据库文件：https://gitee.com/tan-jinling/graduation-design-background
+
 运行前请将根目录下出现的中文图片全部删除
 
 介绍
